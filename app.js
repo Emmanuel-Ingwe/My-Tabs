@@ -13,7 +13,7 @@ about.addEventListener('click', (e) => {
     articles.forEach((article) => {
       article.classList.remove('active');
     });
-    const element = document.getElementById('id');
+    const element = document.getElementById(id);
     element.classList.add('active');
   }
 });
